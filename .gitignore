@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+ml-env/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+catboost_info/
+
+# Models
+models/
+*.pkl
+*.joblib
+
+# Generated datasets
+data/final_dataset.csv
+data/training_dataset.csv
+
+# Generated embeddings
+embeddings/node2vec_embeddings.csv
+embeddings/scibert_embeddings.csv
+
+# Large edge files
+edges/author_institution.csv
+
+# Cache
+.cache/
+cache/
+
+# Archives
+*.zip
+*.tar
+*.gz
